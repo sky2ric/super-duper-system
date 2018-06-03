@@ -1,0 +1,66 @@
+創世記,創,Genesis,Gen,1_1
+出埃及記,出,Exodus,Exo,1_2
+利未記,利,Leviticus,Lev,1_3
+民數記,民,Numbers,Num,1_4
+申命記,申,Deuteronomy,Deu,1_5
+約書亞記,書,Joshua,Jos,1_6
+士師記,士,Judges,Jug,1_7
+路得記,得,Ruth,Rut,1_8
+撒母耳記上,撒上,1 Samuel,1Sa,1_9
+撒母耳記下,撒下,2 Samuel,2Sa,1_10
+列王紀上,王上,1 Kings,1Ki,1_11
+列王紀下,王下,2 Kings,2Ki,1_12
+歷代志上,代上,1 Chronicles,1Ch,1_13
+歷代志下,代下,2 Chronicles,2Ch,1_14
+以斯拉記,拉,Ezra,Ezr,1_15
+尼希米記,尼,Nehemiah,Neh,1_16
+以斯帖記,斯,Esther,Est,1_17
+約伯記,伯,Job,Job,1_18
+詩篇,詩,Psalms,Psm,1_19
+箴言,箴,Proverbs,Pro,1_20
+傳道書,傳,Ecclesiastes,Ecc,1_21
+雅歌,歌,Song of Songs,Son,1_22
+以賽亞書,賽,Isaiah,Isa,1_23
+耶利米書,耶,Jeremiah,Jer,1_24
+耶利米哀歌,哀,Lamentations,Lam,1_25
+以西結書,結,Ezekiel,Eze,1_26
+但以理書,但,Daniel,Dan,1_27
+何西阿書,何,Hosea,Hos,1_28
+約珥書,珥,Joel,Joe,1_29
+阿摩司書,摩,Amos,Amo,1_30
+俄巴底亞書,俄,Obadiah,Oba,1_31
+約拿書,拿,Jonah,Jon,1_32
+彌迦書,彌,Micah,Mic,1_33
+那鴻書,鴻,Nahum,Nah,1_34
+哈巴谷書,哈,Habakkuk,Hab,1_35
+西番雅書,番,Zephaniah,Zep,1_36
+哈該書,該,Haggai,Hag,1_37
+撒迦利亞書,亞,Zechariah,Zec,1_38
+瑪拉基書,瑪,Malachi,Mal,1_39
+馬太福音,太,Matthew,Mat,2_1
+馬可福音,可,Mark,Mak,2_2
+路加福音,路,Luke,Luk,2_3
+約翰福音,約,John,Jhn,2_4
+使徒行傳,徒,Acts,Act,2_5
+羅馬書,羅,Romans,Rom,2_6
+哥林多前書,林前,1 Corinthians,1Co,2_7
+哥林多後書,林後,2 Corinthians,2Co,2_8
+加拉太書,加,Galatians,Gal,2_9
+以弗所書,弗,Ephesians,Eph,2_10
+腓利比書,腓,Philippians,Phl,2_11
+歌羅西書,西,Colossians,Col,2_12
+帖撒羅尼迦前書,帖前,1 Thessalonians,1Ts,2_13
+帖撒羅尼迦後書,帖後,2 Thessalonians,2Ts,2_14
+提摩太前書,提前,1 Timothy,1Ti,2_15
+提摩太後書,提後,2 Timothy,2Ti,2_16
+提多書,多,Titus,Tit,2_17
+腓利門書,門,Philemon,Phm,2_18
+希伯來書,來,Hebrews,Heb,2_19
+雅各書,雅,James,Jas,2_20
+彼得前書,彼前,1 Peter,1Pe,2_21
+彼得後書,彼後,2 Peter,2Pe,2_22
+約翰壹書,約一,1 John,1Jn,2_23
+約翰貳書,約二,2 John,2Jn,2_24
+約翰參書,約三,3 John,3Jn,2_25
+猶大書,猶,Jude,Jud,2_26
+啟示錄,啟,Revelation,Rev,2_27

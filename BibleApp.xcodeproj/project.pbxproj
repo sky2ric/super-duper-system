@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33FACA0D2072740B00E650C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FACA0C2072740B00E650C7 /* AppDelegate.swift */; };
+		33FACA0F2072740B00E650C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FACA0E2072740B00E650C7 /* ViewController.swift */; };
+		33FACA122072740B00E650C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33FACA102072740B00E650C7 /* Main.storyboard */; };
+		33FACA142072740D00E650C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33FACA132072740D00E650C7 /* Assets.xcassets */; };
+		33FACA172072740D00E650C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33FACA152072740D00E650C7 /* LaunchScreen.storyboard */; };
+		33FACA1F2072750B00E650C7 /* BookObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FACA1E2072750B00E650C7 /* BookObject.swift */; };
+		33FACA212072752100E650C7 /* 1_1_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 33FACA202072752100E650C7 /* 1_1_1.txt */; };
+		33FACA292072FAE000E650C7 /* ChapterObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FACA282072FAE000E650C7 /* ChapterObject.swift */; };
+		33FACA2C2072FCB700E650C7 /* DirectoryObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FACA2B2072FCB700E650C7 /* DirectoryObject.swift */; };
+		33FACA2F2073A21D00E650C7 /* Directory.txt in Resources */ = {isa = PBXBuildFile; fileRef = 33FACA2E2073A21C00E650C7 /* Directory.txt */; };
+		33FACA312073A73E00E650C7 /* DirectoryAll.txt in Resources */ = {isa = PBXBuildFile; fileRef = 33FACA302073A73E00E650C7 /* DirectoryAll.txt */; };
+		33FACA332073A76E00E650C7 /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FACA322073A76E00E650C7 /* Properties.swift */; };
+		33FACA352075F2EB00E650C7 /* BooksTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FACA342075F2EB00E650C7 /* BooksTVC.swift */; };
+		33FACA372076617B00E650C7 /* ChaptersTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FACA362076617B00E650C7 /* ChaptersTVC.swift */; };
+		33FACA392076F06A00E650C7 /* VerseReaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FACA382076F06A00E650C7 /* VerseReaderVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33FACA092072740A00E650C7 /* BibleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BibleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33FACA0C2072740B00E650C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33FACA0E2072740B00E650C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33FACA112072740B00E650C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33FACA132072740D00E650C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33FACA162072740D00E650C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33FACA182072740D00E650C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33FACA1E2072750B00E650C7 /* BookObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookObject.swift; sourceTree = "<group>"; };
+		33FACA202072752100E650C7 /* 1_1_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1_1_1.txt; sourceTree = "<group>"; };
+		33FACA282072FAE000E650C7 /* ChapterObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterObject.swift; sourceTree = "<group>"; };
+		33FACA2B2072FCB700E650C7 /* DirectoryObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryObject.swift; sourceTree = "<group>"; };
+		33FACA2E2073A21C00E650C7 /* Directory.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Directory.txt; sourceTree = "<group>"; };
+		33FACA302073A73E00E650C7 /* DirectoryAll.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DirectoryAll.txt; sourceTree = "<group>"; };
+		33FACA322073A76E00E650C7 /* Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Properties.swift; sourceTree = "<group>"; };
+		33FACA342075F2EB00E650C7 /* BooksTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksTVC.swift; sourceTree = "<group>"; };
+		33FACA362076617B00E650C7 /* ChaptersTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaptersTVC.swift; sourceTree = "<group>"; };
+		33FACA382076F06A00E650C7 /* VerseReaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseReaderVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33FACA062072740A00E650C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33FACA002072740A00E650C7 = {
+			isa = PBXGroup;
+			children = (
+				33FACA0B2072740A00E650C7 /* BibleApp */,
+				33FACA0A2072740A00E650C7 /* Products */,
+				33FACA222072791200E650C7 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		33FACA0A2072740A00E650C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33FACA092072740A00E650C7 /* BibleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33FACA0B2072740A00E650C7 /* BibleApp */ = {
+			isa = PBXGroup;
+			children = (
+				33FACA322073A76E00E650C7 /* Properties.swift */,
+				33FACA2A2072FC9900E650C7 /* Data Helper */,
+				33FACA272072FA9700E650C7 /* UI */,
+				33FACA262072FA7600E650C7 /* Data Objects */,
+				33FACA0C2072740B00E650C7 /* AppDelegate.swift */,
+				33FACA132072740D00E650C7 /* Assets.xcassets */,
+				33FACA182072740D00E650C7 /* Info.plist */,
+			);
+			path = BibleApp;
+			sourceTree = "<group>";
+		};
+		33FACA222072791200E650C7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				33FACA2E2073A21C00E650C7 /* Directory.txt */,
+				33FACA302073A73E00E650C7 /* DirectoryAll.txt */,
+				33FACA242072792900E650C7 /* New */,
+				33FACA232072792400E650C7 /* Old */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		33FACA232072792400E650C7 /* Old */ = {
+			isa = PBXGroup;
+			children = (
+				33FACA252072793200E650C7 /* Genesis */,
+			);
+			path = Old;
+			sourceTree = "<group>";
+		};
+		33FACA242072792900E650C7 /* New */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		33FACA252072793200E650C7 /* Genesis */ = {
+			isa = PBXGroup;
+			children = (
+				33FACA202072752100E650C7 /* 1_1_1.txt */,
+			);
+			path = Genesis;
+			sourceTree = "<group>";
+		};
+		33FACA262072FA7600E650C7 /* Data Objects */ = {
+			isa = PBXGroup;
+			children = (
+				33FACA2B2072FCB700E650C7 /* DirectoryObject.swift */,
+				33FACA1E2072750B00E650C7 /* BookObject.swift */,
+				33FACA282072FAE000E650C7 /* ChapterObject.swift */,
+			);
+			path = "Data Objects";
+			sourceTree = "<group>";
+		};
+		33FACA272072FA9700E650C7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				33FACA102072740B00E650C7 /* Main.storyboard */,
+				33FACA152072740D00E650C7 /* LaunchScreen.storyboard */,
+				33FACA0E2072740B00E650C7 /* ViewController.swift */,
+				33FACA342075F2EB00E650C7 /* BooksTVC.swift */,
+				33FACA362076617B00E650C7 /* ChaptersTVC.swift */,
+				33FACA382076F06A00E650C7 /* VerseReaderVC.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		33FACA2A2072FC9900E650C7 /* Data Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Data Helper";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33FACA082072740A00E650C7 /* BibleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33FACA1B2072740D00E650C7 /* Build configuration list for PBXNativeTarget "BibleApp" */;
+			buildPhases = (
+				33FACA052072740A00E650C7 /* Sources */,
+				33FACA062072740A00E650C7 /* Frameworks */,
+				33FACA072072740A00E650C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BibleApp;
+			productName = BibleApp;
+			productReference = 33FACA092072740A00E650C7 /* BibleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33FACA012072740A00E650C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Sky Wong";
+				TargetAttributes = {
+					33FACA082072740A00E650C7 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 33FACA042072740A00E650C7 /* Build configuration list for PBXProject "BibleApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33FACA002072740A00E650C7;
+			productRefGroup = 33FACA0A2072740A00E650C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33FACA082072740A00E650C7 /* BibleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33FACA072072740A00E650C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33FACA2F2073A21D00E650C7 /* Directory.txt in Resources */,
+				33FACA172072740D00E650C7 /* LaunchScreen.storyboard in Resources */,
+				33FACA142072740D00E650C7 /* Assets.xcassets in Resources */,
+				33FACA122072740B00E650C7 /* Main.storyboard in Resources */,
+				33FACA312073A73E00E650C7 /* DirectoryAll.txt in Resources */,
+				33FACA212072752100E650C7 /* 1_1_1.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33FACA052072740A00E650C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33FACA332073A76E00E650C7 /* Properties.swift in Sources */,
+				33FACA292072FAE000E650C7 /* ChapterObject.swift in Sources */,
+				33FACA392076F06A00E650C7 /* VerseReaderVC.swift in Sources */,
+				33FACA2C2072FCB700E650C7 /* DirectoryObject.swift in Sources */,
+				33FACA372076617B00E650C7 /* ChaptersTVC.swift in Sources */,
+				33FACA1F2072750B00E650C7 /* BookObject.swift in Sources */,
+				33FACA0F2072740B00E650C7 /* ViewController.swift in Sources */,
+				33FACA0D2072740B00E650C7 /* AppDelegate.swift in Sources */,
+				33FACA352075F2EB00E650C7 /* BooksTVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		33FACA102072740B00E650C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33FACA112072740B00E650C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33FACA152072740D00E650C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33FACA162072740D00E650C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33FACA192072740D00E650C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33FACA1A2072740D00E650C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33FACA1C2072740D00E650C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2QK9WJHUWT;
+				INFOPLIST_FILE = BibleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = skywongdev.BibleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		33FACA1D2072740D00E650C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2QK9WJHUWT;
+				INFOPLIST_FILE = BibleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = skywongdev.BibleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33FACA042072740A00E650C7 /* Build configuration list for PBXProject "BibleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33FACA192072740D00E650C7 /* Debug */,
+				33FACA1A2072740D00E650C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33FACA1B2072740D00E650C7 /* Build configuration list for PBXNativeTarget "BibleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33FACA1C2072740D00E650C7 /* Debug */,
+				33FACA1D2072740D00E650C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33FACA012072740A00E650C7 /* Project object */;
+}
